@@ -15,108 +15,7 @@
     <meta name="twitter:title" content="Spooky Tag">
     <meta name="twitter:description" content="Welcome to the Spooky Tag website! Join our Discord and watch our YouTube.">
     <meta name="twitter:image" content="https://spookytag.netlify.app/img/spooky_image.jpg">
-    <style>
-        html, body {
-            margin: 0;
-            min-height: 100vh;
-        }
-        body {
-            background-image: url("img/spooky_image.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-        .card {
-            background: rgba(20, 20, 30, 0.75);
-            backdrop-filter: blur(6px);
-            color: white;
-            border-radius: 18px;
-            padding: 40px 32px;
-            max-width: 480px;
-            width: 100%;
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-        }
-        h1 {
-            margin: 0 0 8px;
-            font-size: 42px;
-            color: #FFA500;
-        }
-        .subtitle {
-            margin: 0 0 30px;
-            font-size: 18px;
-            opacity: 0.9;
-        }
-        .section-title {
-            margin: 24px 0 12px;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            opacity: 0.7;
-        }
-        .links {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-        .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            color: white;
-            padding: 12px 20px;
-            border-radius: 10px;
-            text-decoration: none;
-            font-size: 17px;
-            font-weight: bold;
-            transition: transform 0.2s, filter 0.2s;
-        }
-        .btn:hover {
-            transform: scale(1.04);
-            filter: brightness(1.1);
-        }
-        .btn svg {
-            width: 26px;
-            height: 26px;
-            fill: white;
-            flex-shrink: 0;
-        }
-        .discord { background-color: #5865F2; }
-        .youtube { background-color: #FF0000; }
-        .gunslol { background-color: #8B5CF6; }
-        .discord-stats {
-            margin: 4px 0 0;
-            font-size: 14px;
-            opacity: 0.8;
-        }
-        .video {
-            position: relative;
-            padding-top: 56.25%;
-            margin-bottom: 12px;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        .video iframe {
-            position: absolute;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-        }
-        footer {
-            margin-top: 30px;
-            font-size: 13px;
-            opacity: 0.6;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main class="card">
@@ -175,4 +74,4 @@
             .catch(() => {});
     </script>
 </body>
-</html>
+</html>
